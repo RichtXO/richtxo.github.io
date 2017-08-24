@@ -1,4 +1,4 @@
 # RichtXO.github.io
 
-
-Coming soon...
+Here lays my code for my website
+richtxo.me
