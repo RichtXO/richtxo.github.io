@@ -8,6 +8,11 @@
  * Copyright (c) 2017 Daniel Eden
  */
 
+/* WOW.js */
+.wow {
+  visibility: hidden;
+}
+
 .animated {
   animation-duration: 1s;
   animation-fill-mode: both;
