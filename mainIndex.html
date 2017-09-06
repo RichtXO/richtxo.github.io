@@ -11,24 +11,6 @@
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-		<style>
-		#myBtn {
-			display: none;
-			position: fixed;
-			bottom: 20px;
-			right: 30px;
-			z-index: 99;
-			border: none;
-			outline: none;
-			background-color: #f32853;
-			color: white;
-			cursor: pointer;
-			padding: 20px;
-			border-radius: 10px;}
-
-		#myBtn:hover {
-			background-color: #555;}
-		</style>
 	</head>
 	<body class="landing">
 		<button onclick="topFunction()" id="myBtn" title="Go to top">Go to Top</button>
@@ -196,16 +178,22 @@
 
 
 
-		<!-- For Button
-        <script>// When the user scrolls down 500px from the top of the page, show the button
+		<!-- For Button -->
+        <script>// When the user scrolls down 660px from the top of the page, show the button
         window.onscroll = function() {scrollFunction()};
 
         function scrollFunction() {
-        if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 20) {
-        document.getElementById("myBtn").style.display = "block";
-        } else {
-        document.getElementById("myBtn").style.display = "none";
+        if (document.body.scrollTop > 660 || document.documentElement.scrollTop > 20) {
+        	document.getElementById("myBtn").style.display = "block";}
+        	else {
+        	document.getElementById("myBtn").style.display = "none";
+			}
         }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0; // For Chrome, Safari and Opera
+            document.documentElement.scrollTop = 0; // For IE and Firefox
         }
 
 
@@ -216,9 +204,10 @@
                 scrollTop: 0
             }, 800);
             return false;
-        });</script> -->
+        });</script>
 
 
+		<!-- Junk that doesnt work...idk y
 		<script>
             $(document).ready(function(){
 
@@ -237,7 +226,7 @@
 
                     // scroll body to 0px on click
                     $('myBtn').click(function () {
-                        $('body,html').animate({
+                        $('mainIndexhtml').animate({
                             scrollTop: 0
                         }, 800);
                         return false;
@@ -246,6 +235,7 @@
 
             });
 			</script>
+			-->
 
 	</body>
 </html>
