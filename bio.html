@@ -13,6 +13,7 @@
 	</head>
 	<body>
 
+		<button onclick="topFunction()" id="myBtn" title="Go to top">Go to Top</button>
         <script> new WOW().init(); </script>
 		<!-- Header -->
 			<header id="header">
@@ -81,6 +82,32 @@
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+        <!-- For Button -->
+        <script>// When the user scrolls down 660px from the top of the page, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 660 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";}
+            else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0; // For Chrome, Safari and Opera
+            document.documentElement.scrollTop = 0; // For IE and Firefox
+        }
+        // Scrolling to the top of the page
+        // scroll body to 0px on click
+        $('myBtn').click(function () {
+            $('bio.html').animate({
+                scrollTop: 0
+            }, 800);
+            return false;
+        });</script>
 
 	</body>
 </html>
