@@ -2733,7 +2733,7 @@
 
 		.wrapper.style3 {
 			background-attachment: fixed;
-			background-image: url("images/overlay.png"), url("../../images/banner.jpg");
+			background-image: url("images/overlay.png"), url("../../images/banner.jpg");				/*TRY CHANGING THIS PIC */
 			background-position: center center;
 			background-size: cover;
 		}
