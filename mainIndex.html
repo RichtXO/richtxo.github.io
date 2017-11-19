@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <!--
-	By: RichtXO
+	By: Richard Tsai
 -->
 <html>
     <head>
@@ -21,7 +21,7 @@
 					<ul>
 						<li><a href="index.html">Home</a></li>
 						<li><a href="bio.html">Bio</a></li>
-						<!-- <li><a href="sample.html">Sample/a></li>      Rename this HTML file and this link-->
+						<li><a href="portfolio.html">Portfolio/a></li>
 					</ul>
 				</nav>
 			</header>
@@ -31,7 +31,7 @@
 		<!-- Banner -->
 			<section id="banner">
 				<h2></h2>
-                <p class="animated bounceInDown">A Java Programmer <br /> who does more than expected.</p>
+                <p class="animated bounceInDown">A Java Programmer <br /> with some extra skills</p>
 				<ul class="actions">
 					<li class="animated bounceInDown"><a href="bio.html" class="button special big">Who am I?</a></li>
 				</ul>
@@ -44,12 +44,12 @@
 							<div class="6u 12u$(medium)">
 								<header class="major">
 									<h2 class="wow animated slideInLeft">Who is </br> Richard Tsai?</h2>
-									<p class="wow animated slideInLeft">Long story short, </br> not your average-joe</p>
+									<p class="wow animated slideInLeft">Currently a high school student </br>Programmer & computer enthusiast</p>
 								</header>
 							</div>
 							<div class="6u$ 12u$(medium)">
-								<p class="wow animated slideInRight">Brief Paragraph #1</p>
-								<p class="wow animated slideInRight">Brief Paragraph #2</p>
+								<p class="wow animated slideInRight">Herricks High School.......stuff</p>
+								<p class="wow animated slideInRight">Aside from programming and taking computers for fun, I do video editing as a hobby.</p>
 							</div>
 						</div>
 					</div>
@@ -177,11 +177,13 @@
 
 
 		<!-- For Button -->
-        <script>// When the user scrolls down 660px from the top of the page, show the button
+        <script>
         window.onscroll = function() {scrollFunction()};
 
+
+        // When the user scrolls down 660px from the top of the page, show the button
         function scrollFunction() {
-        if (document.body.scrollTop > 660 || document.documentElement.scrollTop > 20) {
+        if (document.body.scrollTop > 660 || document.documentElement.scrollTop > 660) {
         	document.getElementById("myBtn").style.display = "block";}
         	else {
         	document.getElementById("myBtn").style.display = "none";
@@ -190,11 +192,12 @@
 
         // When the user clicks on the button, scroll to the top of the document
         function topFunction() {
-            document.body.scrollTop = 0; // For Chrome, Safari and Opera
-            document.documentElement.scrollTop = 0; // For IE and Firefox
+            document.body.scrollTop = 0; // For Chrome, Safari & Opera
+            document.documentElement.scrollTop = 0; // For IE & Firefox
         }
+
+
 		// Scrolling to the top of the page
-        // scroll body to 0px on click
         $('myBtn').click(function () {
             $('mainIndex.html').animate({							//change this html file
                 scrollTop: 0
