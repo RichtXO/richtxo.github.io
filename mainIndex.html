@@ -21,7 +21,7 @@
 					<ul>
 						<li><a href="index.html">Home</a></li>
 						<li><a href="bio.html">Bio</a></li>
-						<li><a href="portfolio.html">Portfolio/a></li>
+						<li><a href="portfolio.html">Portfolio</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -179,8 +179,6 @@
 		<!-- For Button -->
         <script>
         window.onscroll = function() {scrollFunction()};
-
-
         // When the user scrolls down 660px from the top of the page, show the button
         function scrollFunction() {
         if (document.body.scrollTop > 660 || document.documentElement.scrollTop > 660) {
@@ -189,14 +187,11 @@
         	document.getElementById("myBtn").style.display = "none";
 			}
         }
-
         // When the user clicks on the button, scroll to the top of the document
         function topFunction() {
             document.body.scrollTop = 0; // For Chrome, Safari & Opera
             document.documentElement.scrollTop = 0; // For IE & Firefox
         }
-
-
 		// Scrolling to the top of the page
         $('myBtn').click(function () {
             $('mainIndex.html').animate({							//change this html file
@@ -204,35 +199,5 @@
             }, 800);
             return false;
         });</script>
-
-
-		<!-- Junk that doesnt work...idk y
-		<script>
-            $(document).ready(function(){
-
-                // hide #back-top first
-                $("myBtn").hide();
-
-                // fade in #back-top
-                $(function () {
-                    $(window).scroll(function () {
-                        if ($(this).scrollTop() > 100) {
-                            $('myBtn').fadeIn();
-                        } else {
-                            $('myBtn').fadeOut();
-                        }
-                    });
-
-                    // scroll body to 0px on click
-                    $('myBtn').click(function () {
-                        $('mainIndexhtml').animate({
-                            scrollTop: 0
-                        }, 800);
-                        return false;
-                    });
-                });
-
-            });
-			</script>    -->
 	</body>
 </html>
