@@ -21,3 +21,11 @@
 .delay-6 {
     animation-delay: 3s;
 }
+.delay-me {
+    animation-delay: 5s;
+    animation-iteration-count:1.5;
+    animation-delay: 15s;
+    animation-iteration-count:1.5;
+    animation-delay: 15s;
+    animation-iteration-count:1.5;
+}
