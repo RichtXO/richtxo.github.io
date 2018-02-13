@@ -2,12 +2,12 @@
     Build by Richard Tsai
     Need to delay some animations... that's all
  */
-.delay-4 {
+.delay-1 {
     animation-delay: 1s;
 }
-.delay-5 {
+.delay-2 {
     animation-delay: 2s;
 }
-.delay-6 {
+.delay-3{
     animation-delay: 3s;
 }
