@@ -1,3 +1,4 @@
 
 *.xml
-.idea/RichtXO.github.io.iml
+.idea/
+*.DS_Store
