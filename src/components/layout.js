@@ -12,10 +12,19 @@ import "../styles/mains.scss"
 const Layout = ({ children }) => {
   const [darkTheme, setDarkTheme] = useState(false)
   typeof window !== "undefined" &&
-    window.localStorage.setItem("dark", window.matchMedia('(prefers-color-scheme: dark)').matches ? true : false)
+    window.localStorage.setItem("dark", darkTheme)
 
   useEffect(() => {
-    window.localStorage.getItem("dark", darkTheme)
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => setDarkTheme(e.matches ? true : false));
+
+    const default_client = window.matchMedia('(prefers-color-scheme: dark)').matches ? true : false
+    setDarkTheme(default_client)
+    window.localStorage.getItem("dark", default_client)
+
+    return () => {
+      window.matchMedia('(prefers-color-scheme: dark)').removeEventListener('change', () => {})
+    };
+      
   }, [darkTheme])
 
   typeof window !== "undefined" &&
