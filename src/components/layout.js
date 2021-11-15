@@ -11,20 +11,9 @@ import "../styles/mains.scss"
 
 const Layout = ({ children }) => {
   const [darkTheme, setDarkTheme] = useState(false)
-  typeof window !== "undefined" &&
-    window.localStorage.setItem("dark", darkTheme)
 
   useEffect(() => {
-    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => setDarkTheme(e.matches ? true : false));
-
-    const default_client = window.matchMedia('(prefers-color-scheme: dark)').matches ? true : false
-    setDarkTheme(default_client)
-    window.localStorage.getItem("dark", default_client)
-
-    return () => {
-      window.matchMedia('(prefers-color-scheme: dark)').removeEventListener('change', () => {})
-    };
-      
+    setDarkTheme(window.matchMedia('(prefers-color-scheme: dark)').matches ? true : false)
   }, [darkTheme])
 
   typeof window !== "undefined" &&
@@ -43,16 +32,6 @@ const Layout = ({ children }) => {
   return (
     <div className={darkTheme ? "dark-theme" : "light-theme"}>
       <Navbar></Navbar>
-      <label class="switch">
-        <input type="checkbox" />
-        <span
-          onClick={() => {
-            setDarkTheme(!darkTheme)
-            window.localStorage.setItem("dark", darkTheme)
-          }}
-          class="slider round"
-        ></span>
-      </label>
       <i
         data-speed="-5"
         className="fa fa-github layer parallaxImage Icon-1"
