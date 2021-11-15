@@ -10,7 +10,8 @@ import Navbar from "./Navbar"
 import "../styles/mains.scss"
 
 const Layout = ({ children }) => {
-  const [darkTheme, setDarkTheme] = useState(false)
+  const [darkTheme, setDarkTheme] = useState(
+    window.matchMedia('(prefers-color-scheme: dark)').matches ? true : false)
   typeof window !== "undefined" &&
     window.localStorage.setItem("dark", darkTheme)
 
