@@ -16,7 +16,10 @@ const Header = () => {
           <Fade bottom cascade>
             <div className="heading-wrapper">
               <Typical
-                steps={[data.headerTagline[0], data.headerTime, data.headerTagline[1], data.headerTime, data.headerTagline[2], data.headerTime]}
+                steps={[data.name, data.headerTime, 
+                  data.headerTagline[0], data.headerTime, 
+                  data.headerTagline[1], data.headerTime, 
+                  data.headerTagline[2], data.headerTime]}
                 loop={Infinity}
                 wrapper="h1"
               />
