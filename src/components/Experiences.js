@@ -3,13 +3,13 @@ import data from "../yourdata"
 
 const Experiences = () => {
   return (
-    <div className="section">
+    <div className="section" id="experiences">
       <div className="container">
         <div className="skills-container">
           <h1>Experiences</h1>
           <div className="skills-grid">
             {data.experiences.map(experience => (
-              <div className="experiences" key={experience.id}>
+              <div className="skill" key={experience.id}>
                 <img src={experience.img} alt="css" className="skillIcons"></img>
                 <h4>{experience.title}</h4>
                 <h5>{experience.date}</h5>
