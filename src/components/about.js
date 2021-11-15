@@ -1,6 +1,7 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 import data from "../yourdata"
+import resume from "../Richard_Tsai_Resume.pdf"
 
 const About = () => {
   return (
@@ -19,6 +20,11 @@ const About = () => {
               <br></br>
               <br></br>
               {data.aboutParaThree}
+              <br></br>
+              <br></br>
+              <a href={resume} className="primary-btn">
+                Resume
+              </a>
             </p>
           </div>
           <div className="image-wrapper">

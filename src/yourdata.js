@@ -16,9 +16,10 @@ export default {
   name: "Richard Tsai",
   headerTagline: [
     "Just a CS Student",
-    "Software Engineer,",
+    "Software Engineer",
     "Innovative Thinker"
   ],
+  headerTime: 2000,
   headerParagraph:
     "",
   contactEmail: "richtxo@gmail.com",
