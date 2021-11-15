@@ -9,7 +9,7 @@ const Experiences = () => {
           <h1>Experiences</h1>
           <div className="skills-grid">
             {data.experiences.map(experience => (
-              <div className="skill" key={experience.id}>
+              <div className="experiences" key={experience.id}>
                 <img src={experience.img} alt="css" className="skillIcons"></img>
                 <h4>{experience.title}</h4>
                 <h5>{experience.date}</h5>
