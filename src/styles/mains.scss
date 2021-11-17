@@ -144,10 +144,6 @@ input:checked + .slider:before {
   left: 73%;
 }
 .dark-theme {
-  transition: 0.4s;
   background-color: rgb(0, 2, 32);
   color: white;
-}
-.light-theme {
-  transition: 0.4s;
 }
