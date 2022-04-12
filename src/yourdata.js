@@ -10,14 +10,16 @@ import instagramIcon from "./images/instagram.svg"
 
 import profile from "./images/me.jpg"
 
+import securityplus from "./images/SecurityPlus.png"
+
 export default {
 
   //   Header Details ---------------------
   name: "Richard Tsai",
   headerTagline: [
-    "Just a CS Student",
     "A Software Engineer",
-    "An Innovative Thinker"
+    "An Innovative Thinker",
+    "Cyber Security focused"
   ],
   headerTime: 2000,
   headerParagraph:
@@ -25,9 +27,9 @@ export default {
   contactEmail: "richtxo@gmail.com",
 
 
-  // About Secton --------------
+  // About Section --------------
   aboutParaOne:
-    "I'm an energetic college techie, currently pursuing a BS/MS degree in Computer Science at RPI. Got hands-on experiences in installation and configuration of hardware and software including coding and cybersecurity.",
+    "I'm an energetic college techie, currently pursuing a BS/MS degree in Computer Science at RPI. Hands-on experiences in installation and configuration of hardware and software including coding and cybersecurity.",
   aboutParaTwo:
     "",
   aboutParaThree:
@@ -94,11 +96,17 @@ export default {
     },
   ],
 
-  //   Promotion Section --------------------------
+  //   Certification Section --------------------------
 
-  promotionHeading: "Heading",
-  promotionPara:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  certificationHeading: "Certification",
+  certifications: [
+    {
+      id: 1,
+      img: securityplus,
+      title: "CompTIA Security+ SY0-501",
+      link: "https://www.credly.com/badges/c7eff3aa-dd57-4f86-82b2-50654fff5bc4/public_url"
+    }
+  ],
 
   //   Contact Section --------------
   contactSubHeading: "Look me up on...",

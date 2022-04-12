@@ -8,15 +8,17 @@ import Experiences from "../components/Experiences"
 import About from "../components/about"
 import Projects from "../components/Projects"
 import Footer from "../components/Footer"
+import Promotion from "../components/Promotion";
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Richard Tsai" />
-    <Header></Header>
-    <About></About>
-    <Experiences></Experiences>
-    <Projects></Projects>
-    <Footer></Footer>
+    <Header/>
+    <About/>
+    <Experiences/>
+    <Promotion/>
+    <Projects/>
+    <Footer/>
   </Layout>
 )
 

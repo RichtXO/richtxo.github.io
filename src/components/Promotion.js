@@ -8,9 +8,18 @@ const Promotion = () => {
       <div className="container">
         <div className="promotion-container">
           <Fade bottom cascade>
-            <h1>{data.promotionHeading}</h1>
+            <h1>{data.certificationHeading}</h1>
           </Fade>
-          <p>{data.promotionPara}</p>
+          <div className="cert-grid">
+            {data.certifications.map(cert => (
+                <div className="skill" key={cert.id}>
+                  <a href={cert.link} target="_blank" rel="noopener noreferrer">
+                    <img src={cert.img} alt="css" className="skillIcons"/>
+                  </a>
+                  <h4>{cert.title}</h4>
+                </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>

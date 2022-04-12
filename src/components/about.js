@@ -14,21 +14,21 @@ const About = () => {
             </Fade>
             <p>
               {data.aboutParaOne}
-              <br></br>
-              <br></br>
+              <br/>
+              <br/>
               {data.aboutParaTwo}
-              <br></br>
-              <br></br>
+              <br/>
+              <br/>
               {data.aboutParaThree}
-              <br></br>
-              <br></br>
+              <br/>
+              <br/>
               <a href={resume} className="primary-btn">
                 Resume
               </a>
             </p>
           </div>
           <div className="image-wrapper">
-            <img src={data.aboutImage} alt="about"></img>
+            <img src={data.aboutImage} alt="about"/>
           </div>
         </div>
       </div>
