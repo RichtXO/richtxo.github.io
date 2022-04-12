@@ -21,7 +21,7 @@ const Projects = () => {
                   paragraph={project.para}
                   imgUrl={project.imageSrc}
                   projectLink={project.url}
-                ></Card>
+                  />
               ))}
             </Fade>
           </div>

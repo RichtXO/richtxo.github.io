@@ -4,7 +4,7 @@ import data from "../yourdata"
 
 const Promotion = () => {
   return (
-    <div className="section">
+    <div className="section" id="certification">
       <div className="container">
         <div className="promotion-container">
           <Fade bottom cascade>
