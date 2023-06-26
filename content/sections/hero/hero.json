@@ -1,0 +1,22 @@
+{
+  "intro": "Hello!",
+  "heroPhoto": {
+    "src": "../../images/me.png",
+    "alt": "My Photo"
+  },
+  "image": {
+    "src": "../../images/waving-hand.png",
+    "alt": "Waving Hand Emoji"
+  },
+  "title": "I'm a Security-focused Developer",
+  "subtitle": {
+    "prefix": "",
+    "highlight": "",
+    "suffix": ""
+  },
+  "description": "Just a developer with a passion in networking and automation",
+  "socialProfiles": {
+    "from": ["Instagram", "LinkedIn", "Github", "Mail"],
+    "showIcons": true
+  }
+}

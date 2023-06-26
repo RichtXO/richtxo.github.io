@@ -1,25 +1,25 @@
-import React from "react"
+import React from "react";
+import {
+  AboutSection,
+  ContactSection,
+  HeroSection,
+  InterestsSection,
+  Page,
+  ProjectsSection,
+  Seo,
+} from "gatsby-theme-portfolio-minimal";
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-// Components
-import Header from "../components/Header"
-import Experiences from "../components/Experiences"
-import About from "../components/about"
-import Projects from "../components/Projects"
-import Footer from "../components/Footer"
-import Promotion from "../components/Promotion";
-
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Richard Tsai" />
-    <Header/>
-    <About/>
-    <Experiences/>
-    <Promotion/>
-    <Projects/>
-    <Footer/>
-  </Layout>
-)
-
-export default IndexPage
+export default function IndexPage() {
+  return (
+    <>
+      <Seo title="Richard Tsai" />
+      <Page useSplashScreenAnimation>
+        <HeroSection sectionId="hero" />
+        <AboutSection sectionId="about" heading="About me" />
+        <InterestsSection sectionId="skills" heading="Skills" />
+        <ProjectsSection sectionId="projects" heading="Projects" />
+        <ContactSection sectionId="contact" heading="Reach Out" />
+      </Page>
+    </>
+  );
+}

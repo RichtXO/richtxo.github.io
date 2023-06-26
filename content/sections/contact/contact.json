@@ -1,0 +1,13 @@
+{
+  "name": "If you have any problems with this theme, create an issue in the GitHub repository.",
+  "email": "",
+  "description": "",
+  "image": {
+    "src": "",
+    "alt": ""
+  },
+  "socialProfiles": {
+    "from": ["Instagram", "LinkedIn", "Github", "Mail"],
+    "showIcons": true
+  }
+}

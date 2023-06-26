@@ -1,34 +1,29 @@
 module.exports = {
-  siteMetadata: {
-    title: `Richard Tsai`,
-    description: `A personal website by Richard Tsai`,
-    author: `@gatsbyjs`,
-  },
   plugins: [
-    `gatsby-plugin-react-helmet`,
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: "gatsby-theme-portfolio-minimal",
       options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
+        siteUrl: "https://richtxo.github.io", // Used for sitemap generation
+        manifestSettings: {
+          favicon: "./content/images/icon.png", // Path is relative to the root
+          siteName: "Richard Tsai Portfolio", // Used in manifest.json
+          shortName: "Rich Tsai", // Used in manifest.json
+          startUrl: "/", // Used in manifest.json
+          backgroundColor: "#FFFFFF", // Used in manifest.json
+          themeColor: "#000000", // Used in manifest.json
+          display: "minimal-ui", // Used in manifest.json
+        },
+        contentDirectory: "./content",
+        blogSettings: {
+          path: "/blog", // Defines the slug for the blog listing page
+          usePathPrefixForArticles: false, // Default true (i.e. path will be /blog/first-article)
+        },
+        googleAnalytics: {
+            trackingId: "G-SYZD1HFYJW",
+            anonymize: true, // Default true
+            environments: ["production"] // Default ["production"]
+        }
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
-        start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `src/images/icon.png`, // This path is relative to the root of the site.
-      },
-    },
-    `gatsby-plugin-sass`,
-    `gatsby-plugin-smoothscroll`,
-    `gatsby-plugin-offline`,
   ],
-}
+};

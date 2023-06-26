@@ -1,0 +1,42 @@
+{
+  "siteMetadata": {
+    "language": "en",
+    "siteUrl": "https://richtxo.github.io",
+    "title": "Richard Tsai",
+    "titleTemplate": "%s",
+    "description": "A personal site of Richard Tsai",
+    "author": "Richard Tsai",
+    "avatar": "../content/images/gatsby.png",
+    "bio": "Developer with a focus in cybersecurity and devsecops",
+    "social": {
+      "instagram": "https://www.instagram.com/richtxo217/",
+      "github": "https://github.com/RichtXO/",
+      "linkedin": "https://www.linkedin.com/in/richtxo/",
+      "mail": "mailto:richtxo@gmail.com"
+    }
+  },
+  "siteConfiguration": {
+    "logo": { "text": "Richard Tsai" },
+    "navigation": {
+      "header": [
+        { "label": "About", "url": "/#about" },
+        { "label": "Skills", "url": "/#skills" },
+        { "label": "Projects", "url": "/#projects" },
+        { "label": "Contact", "url": "/#contact" }
+      ],
+      "ctaButton": {
+        "openNewTab": true,
+        "label": "Resume",
+        "url": "/Richard-Tsai-Resume.pdf"
+      },
+      "footer": [
+        { "label": "Privacy", "url": "/privacy" }
+      ]
+    },
+    "featureToggles": {
+      "useDarkModeAsDefault": false,
+      "useDarkModeBasedOnUsersPreference": true,
+      "useCookieBar": true
+    }
+  }
+}

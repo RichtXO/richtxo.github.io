@@ -1,0 +1,93 @@
+{
+  "interests": [
+    {
+      "label": "CompTIA Security+",
+      "image": {
+        "src": "../../images/SecurityPlus.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Typescript",
+      "image": {
+        "src": "../../images/Typescript.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Docker",
+      "image": {
+        "src": "../../images/Docker.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Kubernetes",
+      "image": {
+        "src": "../../images/Kubernetes.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "AWS",
+      "image": {
+        "src": "../../images/AWS.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Jenkins",
+      "image": {
+        "src": "../../images/Jenkins.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Python",
+      "image": {
+        "src": "../../images/Python.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "C",
+      "image": {
+        "src": "../../images/C.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "C++",
+      "image": {
+        "src": "../../images/C++.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Java Springboot",
+      "image": {
+        "src": "../../images/Springboot.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Git",
+      "image": {
+        "src": "../../images/Git.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Automation",
+      "image": {
+        "src": "../../images/Devops.png",
+        "alt": ""
+      }
+    }
+  ],
+  "button": {
+    "visible": true,
+    "label": "+ Load More",
+    "initiallyShownInterests": 5
+  }
+}

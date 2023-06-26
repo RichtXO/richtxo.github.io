@@ -1,0 +1,53 @@
+{
+  "projects": [
+    {
+      "visible": true,
+      "category": "\uD83D\uDCC5 Full-Stack Open source",
+      "title": "YACS.n",
+      "description": "Led a student-ran student course scheduler during RPI. Open source project composing of React, FastAPI, and Postgres DB.",
+      "image": {
+        "src": "../../images/yacs.png",
+        "alt": "YACS.n Logo",
+        "linkTo": "https://github.com/YACS-RCOS/yacs.n"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/YACS-RCOS/yacs.n"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "\uD83E\uDD16 Discord Music Bot",
+      "title": "Lil Tim",
+      "description": "Another Discord bot in java using JDA and Lavaplayer. Custom built CI/CD pipelines to a self-hosted server for hosting.",
+      "image": {
+        "src": "../../images/lil-tim.png",
+        "alt": "Lil Tim's Logo",
+        "linkTo": "https://github.com/RichtXO/Lil-Tim"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/RichtXO/Lil-Tim"
+        }
+      ]
+    },
+    {
+      "visible": false,
+      "category": "\uD83D\uDDA7 Network",
+      "title": "SOHO Lab",
+      "description": "The starter includes predefined sections as well as a template for new, custom sections. Moreover, you can add new projects to this section without additional coding. Photo by Kelly Sikkema on Unsplash.",
+      "image": {
+        "src": "../../images/kelly-sikkema-Hl3LUdyKRic-unsplash.jpg",
+        "alt": "Extendable Layout"
+      }
+    }
+  ],
+  "button": {
+    "visible": false,
+    "label": "Visit on Github",
+    "url": ""
+  }
+}
