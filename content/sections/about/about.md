@@ -1,5 +1,5 @@
 ---
-imageSrc: "../../images/profile.jpg"
+imageSrc: "../../images/profile.webp"
 imageAlt: "A real profile pic of Richard Tsai"
 ---
 
