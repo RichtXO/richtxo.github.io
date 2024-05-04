@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "gatsby": "^5",
-    "gatsby-plugin-gdpr-cookies": "^2.0.9",
+    "gatsby-plugin-gdpr-cookies": "github:andrezimpel/gatsby-plugin-gdpr-cookies",
     "gatsby-plugin-image": "^3.13.1",
     "gatsby-theme-portfolio-minimal": "latest",
     "react": "^18",
