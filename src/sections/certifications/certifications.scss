@@ -1,0 +1,31 @@
+.certifications-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 12rem);
+  flex-direction: row;
+  align-self: center;
+  margin-bottom: -5rem;
+
+  img {
+    padding: 0.2rem .1rem;
+    max-width: 12rem;
+    max-height: 10rem;
+  }
+}
+
+@media (min-width: 500px) {
+  .certifications-grid {
+    grid-template-columns: repeat(2, 12rem);
+  }
+}
+
+@media (min-width: 650px) {
+  .certifications-grid {
+    grid-template-columns: repeat(3, 12rem);
+  }
+}
+
+@media (min-width: 880px) {
+  .certifications-grid {
+    grid-template-columns: repeat(4, 12rem);
+  }
+}
