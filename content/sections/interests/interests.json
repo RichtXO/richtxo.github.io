@@ -1,20 +1,6 @@
 {
   "interests": [
     {
-      "label": "AWS Certified Security - Specialty",
-      "image": {
-        "src": "../../images/AWSSecurity.png",
-        "alt": ""
-      }
-    },
-    {
-      "label": "CompTIA Security+",
-      "image": {
-        "src": "../../images/SecurityPlus.png",
-        "alt": ""
-      }
-    },
-    {
       "label": "Typescript",
       "image": {
         "src": "../../images/Typescript.png",
