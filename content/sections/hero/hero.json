@@ -8,15 +8,15 @@
     "src": "../../images/waving-hand.png",
     "alt": "Waving Hand Emoji"
   },
-  "title": "I'm a Security-focused Developer",
+  "title": "I'm a Software Engineer",
   "subtitle": {
     "prefix": "",
     "highlight": "",
     "suffix": ""
   },
-  "description": "Just a developer with a passion in networking and automation",
+  "description": "Just an engineer with a focus in cybersecurity and automation",
   "socialProfiles": {
-    "from": ["Instagram", "LinkedIn", "Github", "Mail"],
+    "from": ["Github", "LinkedIn", "Instagram", "Mail"],
     "showIcons": true
   }
 }
