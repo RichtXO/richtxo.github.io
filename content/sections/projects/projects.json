@@ -21,7 +21,7 @@
       "visible": true,
       "category": "\uD83D\uDCC5 Full-Stack Open source",
       "title": "YACS.n",
-      "description": "Led a student-ran student course scheduler during RPI. Open source project composing of React, FastAPI, and Postgres DB.",
+      "description": "Led a student-ran student course scheduler during RPI. Open source project composing of React, FastAPI, and PostgresDB.",
       "image": {
         "src": "../../images/yacs.png",
         "alt": "YACS.n Logo",
