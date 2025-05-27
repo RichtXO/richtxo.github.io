@@ -1,6 +1,6 @@
 {
   "name": "richard-tsai-site",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "scripts": {
     "clean": "gatsby clean",
     "develop": "gatsby develop",

@@ -3,22 +3,15 @@ imageSrc: "../../images/profile.webp"
 imageAlt: "A real profile pic of Richard Tsai"
 ---
 
-As a Software Engineer with a strong background in full-stack development, I am passionate about creating secure, 
-scalable, and efficient solutions that integrate seamlessly into the development lifecycle. Over the past two years, 
-I’ve honed my skills in cybersecurity and DevSecOps, consistently demonstrating my ability to maintain strong 
-cybersecurity postures across a wide range of tech stacks.
+As a cybersecurity professional with a computer science foundation, I bring a blend of development and defensive
+operations expertise. I hold a BS in Computer Science from Rensselaer Polytechnic Institute and am pursuing
+certifications including CISSP, CompTIA Security+, and AWS Certified Security – Specialty. My skillset includes tools
+like Splunk, Azure Defender for Cloud, and Oracle databases.
 
-I thrive on the challenge of enhancing operational efficiency, particularly through the introduction of Quality of 
-Life automation and the implementation of CI/CD pipelines. My approach is to embed security measures into every stage 
-of the development process, ensuring that the solutions I help build are not only robust and secure but also optimized 
-for performance.
+My experience includes roles at IBM and The MITRE Corporation. At IBM, I automated CI/CD pipelines and reduced
+vulnerabilities. At MITRE, I contributed to IDS/IPS projects, developed custom APIs for vulnerability data, and
+automated Zeek script execution. I also implemented improvements to code coverage using pytest .
 
-Certified in <a href="https://www.youracclaim.com/badges/c7eff3aa-dd57-4f86-82b2-50654fff5bc4/linked_in_profile"
-target="_blank" rel="nofollow noopener noreferrer" aria-label="External Link">CompTIA Security+</a> and 
-<a href="https://www.credly.com/badges/c02245cd-bbed-43d6-907f-21cfc8c4e449/public_url" target="_blank"
-rel="nofollow noopener noreferrer" aria-label="External Link">AWS Certified Security</a>
-
-When I'm not coding, you'll find me tinkering in my personal home lab, keeping networks secure with automations and IPS 
-system, or prepping for the CISSP certification!
-
-Tech stack? C, Java, Python, JavaScript - you name it.
+I'm passionate about leveraging technology to proactively defend against threats. My personal projects, like YACS,
+demonstrate my commitment to continuous learning. I strive to contribute to team success through incident response,
+vulnerability management, and security automation.
