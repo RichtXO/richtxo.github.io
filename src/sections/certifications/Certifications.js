@@ -8,7 +8,7 @@ export function Certifications() {
         <Animation type="fadeIn">
             <Section heading="Certifications" anchor="">
                 <div className="certifications-grid">
-                    <a href="/"
+                    <a href="https://www.credly.com/badges/54441102-3b75-43db-915f-91f19e928a1f/public_url"
                        target="_blank" rel="noopener noreferrer" aria-label="External Link">
                         <StaticImage
                             src="../../cert/CISSP.png"
